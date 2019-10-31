@@ -6,7 +6,8 @@ import {
     CLOUD,
     RAIN,
     SNOW,
-    WINDY,
+    THUNDER,
+    DRIZZLE
 } from './../../../constants/Icons';
 import './styles.css';
 
@@ -15,7 +16,8 @@ const Icons = {
     [CLOUD]: "cloud",
     [RAIN] : "rain",
     [SNOW] : "snow",
-    [WINDY] : "windy",
+    [THUNDER] : "day-thunderstore",
+    [DRIZZLE] : "day-showers",
 }
 
 const sizeIcon = "4x";
